@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menampilkan File PDF di HTML</title>
+
+	<style type="text/css" media="screen">
+		div {
+			border: 1px solid #ebedf2; 
+			box-shadow: 0px 0px 5px 0px #CCCCCC; 
+			text-align: center; 
+			margin-top: 20px; 
+			margin-bottom: 20px;
+			padding: 10px
+		}
+	</style>
+</head>
+<body style="width: 700px; margin: auto;">
+
+<!-- ----------------------------------------TAMPILAN PDF PERTAMA------------------------------------ -->
+<div>
+	<h4 style="background-color: blue; padding: 10px">MENGGUNAKAN TAG IFRAME</h4>
+	<iframe src="501-862-1-SM.pdf" width="600" height="400"></iframe>
+</div>
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- ----------------------------------------TAMPILAN PDF KEDUA-------------------------------------- -->
+<div>
+	<h4 style="background-color: yellow; padding: 10px">MENGGUNAKAN TAG EMBED</h4>
+	<embed type="application/pdf" src="501-862-1-SM.pdf" width="600" height="400"></embed>		
+</div>
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+<!-- ----------------------------------------TAMPILAN PDF KETIGA------------------------------------- -->
+<div>
+	<h4 style="background-color: red; padding: 10px">MENGGUNAKAN TAG OBJECT</h4>
+	<object data="501-862-1-SM.pdf" width="600" height="400"></object>	
+</div>
+<!-- ------------------------------------------------------------------------------------------------ -->
+
+</body>
+</html>
