@@ -1,5 +1,5 @@
 # Barcode
-Untuk tutorial Lengkap tentang materi ini, teman - teman dapat mengunjungi website resmi kami di https://blogbelajar.id/tutorial-cara-upload-gambar-foto-menggunakan-codeigniter-3-dan-mysql/
+Untuk tutorial Lengkap tentang materi ini, teman - teman dapat mengunjungi website resmi kami di https://blogbelajar.id/membuat-barcode-dengan-php/
 
 📢 SUBSCRIBE YOUTUBE 📢
 - https://www.youtube.com/c/KecoakSaktiOfficial
